@@ -27,7 +27,7 @@ struct InterviewCheckerApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TabBarView()
                 .environment(appRouter)
         }
         .modelContainer(sharedModelContainer)

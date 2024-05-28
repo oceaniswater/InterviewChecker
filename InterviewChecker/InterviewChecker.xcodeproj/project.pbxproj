@@ -15,6 +15,9 @@
 		867BE0D12C05EC21002931C2 /* InterviewCheckerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867BE0D02C05EC21002931C2 /* InterviewCheckerTests.swift */; };
 		867BE0DB2C05EC21002931C2 /* InterviewCheckerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867BE0DA2C05EC21002931C2 /* InterviewCheckerUITests.swift */; };
 		867BE0DD2C05EC21002931C2 /* InterviewCheckerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867BE0DC2C05EC21002931C2 /* InterviewCheckerUITestsLaunchTests.swift */; };
+		867BE0EB2C05ED4B002931C2 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867BE0EA2C05ED4B002931C2 /* AppRouter.swift */; };
+		867BE0ED2C05EEEF002931C2 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867BE0EC2C05EEEF002931C2 /* TabBarView.swift */; };
+		867BE0EF2C05F068002931C2 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867BE0EE2C05F068002931C2 /* TestView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		867BE0D62C05EC21002931C2 /* InterviewCheckerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InterviewCheckerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		867BE0DA2C05EC21002931C2 /* InterviewCheckerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterviewCheckerUITests.swift; sourceTree = "<group>"; };
 		867BE0DC2C05EC21002931C2 /* InterviewCheckerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterviewCheckerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		867BE0EA2C05ED4B002931C2 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
+		867BE0EC2C05EEEF002931C2 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		867BE0EE2C05F068002931C2 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +103,14 @@
 		867BE0BB2C05EC20002931C2 /* InterviewChecker */ = {
 			isa = PBXGroup;
 			children = (
-				867BE0BC2C05EC20002931C2 /* InterviewCheckerApp.swift */,
+				867BE0E92C05ED31002931C2 /* App */,
+				867BE0EC2C05EEEF002931C2 /* TabBarView.swift */,
 				867BE0BE2C05EC20002931C2 /* ContentView.swift */,
 				867BE0C02C05EC20002931C2 /* Item.swift */,
 				867BE0C22C05EC21002931C2 /* Assets.xcassets */,
 				867BE0C42C05EC21002931C2 /* InterviewChecker.entitlements */,
 				867BE0C52C05EC21002931C2 /* Preview Content */,
+				867BE0EE2C05F068002931C2 /* TestView.swift */,
 			);
 			path = InterviewChecker;
 			sourceTree = "<group>";
@@ -130,6 +138,15 @@
 				867BE0DC2C05EC21002931C2 /* InterviewCheckerUITestsLaunchTests.swift */,
 			);
 			path = InterviewCheckerUITests;
+			sourceTree = "<group>";
+		};
+		867BE0E92C05ED31002931C2 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				867BE0BC2C05EC20002931C2 /* InterviewCheckerApp.swift */,
+				867BE0EA2C05ED4B002931C2 /* AppRouter.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,8 +279,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				867BE0EF2C05F068002931C2 /* TestView.swift in Sources */,
+				867BE0EB2C05ED4B002931C2 /* AppRouter.swift in Sources */,
 				867BE0BF2C05EC20002931C2 /* ContentView.swift in Sources */,
 				867BE0C12C05EC20002931C2 /* Item.swift in Sources */,
+				867BE0ED2C05EEEF002931C2 /* TabBarView.swift in Sources */,
 				867BE0BD2C05EC20002931C2 /* InterviewCheckerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
