@@ -7,7 +7,7 @@
 
 import Foundation
 
-protocol RouterDestination: Hashable, Identifiable, Equatable, Codable, CustomStringConvertible {
+protocol RouterDestination: Hashable, Identifiable, Codable, Equatable, CustomStringConvertible {
     var id: String { get }
     var description: String { get }
 }

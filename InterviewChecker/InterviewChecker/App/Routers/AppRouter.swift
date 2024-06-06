@@ -16,4 +16,5 @@ import SwiftUI
     var tabBRouter = TabBRouter()
     var tabCRouter = TabCRouter()
     var tabDRouter = TabDRouter()
+    var jobListRouter = JobListRouter()
 }

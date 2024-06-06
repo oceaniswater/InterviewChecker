@@ -52,4 +52,5 @@ struct TabC: View {
 
 #Preview {
     TabC()
+        .environment(TabCRouter())
 }

@@ -13,6 +13,7 @@ struct TabBarView: View {
         case b
         case c
         case d
+        case jobs
         
         var title: String {
             return switch self {
@@ -24,6 +25,8 @@ struct TabBarView: View {
                 "Tab C"
             case .d:
                 "Tab D"
+            case .jobs:
+                "Jobs"
             }
         }
     }
@@ -36,6 +39,13 @@ struct TabBarView: View {
         @Bindable var appRouter = appRouter
         
         TabView(selection: $appRouter.selectedTab) {
+            JobListView()
+                .tag(Tab.jobs)
+                .environment(appRouter.jobListRouter)
+                .tabItem {
+                    Image(systemName: "list.bullet.clipboard")
+                }
+            
             TabA()
                 .tag(Tab.a)
                 .environment(appRouter.tabARouter)

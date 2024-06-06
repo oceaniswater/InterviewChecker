@@ -107,4 +107,5 @@ struct TabD: View {
 
 #Preview {
     TabD()
+        .environment(TabDRouter())
 }

@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		86006BDE2C11F91C004D4135 /* CircularAddButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86006BDD2C11F91C004D4135 /* CircularAddButton.swift */; };
+		8646CEE22C0F8E7700840CA4 /* JobListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8646CEE12C0F8E7700840CA4 /* JobListRouter.swift */; };
+		8649727D2C0776A600D5FF26 /* MultilineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8649727C2C0776A600D5FF26 /* MultilineTextField.swift */; };
 		867BE0BD2C05EC20002931C2 /* InterviewCheckerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867BE0BC2C05EC20002931C2 /* InterviewCheckerApp.swift */; };
-		867BE0BF2C05EC20002931C2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867BE0BE2C05EC20002931C2 /* ContentView.swift */; };
+		867BE0BF2C05EC20002931C2 /* JobListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867BE0BE2C05EC20002931C2 /* JobListView.swift */; };
 		867BE0C12C05EC20002931C2 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867BE0C02C05EC20002931C2 /* Item.swift */; };
 		867BE0C32C05EC21002931C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 867BE0C22C05EC21002931C2 /* Assets.xcassets */; };
 		867BE0C72C05EC21002931C2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 867BE0C62C05EC21002931C2 /* Preview Assets.xcassets */; };
@@ -41,6 +44,8 @@
 		86EC242A2C0641C4002C1EF9 /* PresentedSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86EC24292C0641C4002C1EF9 /* PresentedSheet.swift */; };
 		86EC242D2C0647B4002C1EF9 /* DeeplinkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86EC242C2C0647B4002C1EF9 /* DeeplinkManager.swift */; };
 		86EC24302C064B8D002C1EF9 /* Job.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86EC242F2C064B8D002C1EF9 /* Job.swift */; };
+		86EC24352C06533A002C1EF9 /* JobView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86EC24342C06533A002C1EF9 /* JobView.swift */; };
+		86EC24382C0653BB002C1EF9 /* JobCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86EC24372C0653BB002C1EF9 /* JobCellView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,9 +66,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		86006BDD2C11F91C004D4135 /* CircularAddButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularAddButton.swift; sourceTree = "<group>"; };
+		8646CEE12C0F8E7700840CA4 /* JobListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobListRouter.swift; sourceTree = "<group>"; };
+		8649727C2C0776A600D5FF26 /* MultilineTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultilineTextField.swift; sourceTree = "<group>"; };
 		867BE0B92C05EC20002931C2 /* InterviewChecker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InterviewChecker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		867BE0BC2C05EC20002931C2 /* InterviewCheckerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterviewCheckerApp.swift; sourceTree = "<group>"; };
-		867BE0BE2C05EC20002931C2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		867BE0BE2C05EC20002931C2 /* JobListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobListView.swift; sourceTree = "<group>"; };
 		867BE0C02C05EC20002931C2 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		867BE0C22C05EC21002931C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		867BE0C42C05EC21002931C2 /* InterviewChecker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = InterviewChecker.entitlements; sourceTree = "<group>"; };
@@ -99,6 +107,8 @@
 		86EC24292C0641C4002C1EF9 /* PresentedSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentedSheet.swift; sourceTree = "<group>"; };
 		86EC242C2C0647B4002C1EF9 /* DeeplinkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeeplinkManager.swift; sourceTree = "<group>"; };
 		86EC242F2C064B8D002C1EF9 /* Job.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Job.swift; sourceTree = "<group>"; };
+		86EC24342C06533A002C1EF9 /* JobView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobView.swift; sourceTree = "<group>"; };
+		86EC24372C0653BB002C1EF9 /* JobCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobCellView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,7 +164,6 @@
 				867BE0F02C05F4DA002931C2 /* Extensions */,
 				867BE0E92C05ED31002931C2 /* App */,
 				867BE10C2C05FBE8002931C2 /* Views */,
-				867BE0BE2C05EC20002931C2 /* ContentView.swift */,
 				867BE0C22C05EC21002931C2 /* Assets.xcassets */,
 				867BE0C42C05EC21002931C2 /* InterviewChecker.entitlements */,
 				867BE0C52C05EC21002931C2 /* Preview Content */,
@@ -223,6 +232,7 @@
 		867BE10C2C05FBE8002931C2 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				86EC24312C0652D2002C1EF9 /* JobListView */,
 				867BE10D2C05FBF4002931C2 /* TabA */,
 				867BE1102C05FC44002931C2 /* TabB */,
 				867BE1132C05FC99002931C2 /* TabC */,
@@ -352,6 +362,43 @@
 				86EC242F2C064B8D002C1EF9 /* Job.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		86EC24312C0652D2002C1EF9 /* JobListView */ = {
+			isa = PBXGroup;
+			children = (
+				86EC24362C065350002C1EF9 /* SupporingViews */,
+				86EC24332C0652F8002C1EF9 /* Views */,
+				86EC24322C0652ED002C1EF9 /* Router */,
+				867BE0BE2C05EC20002931C2 /* JobListView.swift */,
+			);
+			path = JobListView;
+			sourceTree = "<group>";
+		};
+		86EC24322C0652ED002C1EF9 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				8646CEE12C0F8E7700840CA4 /* JobListRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		86EC24332C0652F8002C1EF9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				86EC24342C06533A002C1EF9 /* JobView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		86EC24362C065350002C1EF9 /* SupporingViews */ = {
+			isa = PBXGroup;
+			children = (
+				86EC24372C0653BB002C1EF9 /* JobCellView.swift */,
+				8649727C2C0776A600D5FF26 /* MultilineTextField.swift */,
+				86006BDD2C11F91C004D4135 /* CircularAddButton.swift */,
+			);
+			path = SupporingViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -484,21 +531,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86006BDE2C11F91C004D4135 /* CircularAddButton.swift in Sources */,
 				867BE0F62C05F60C002931C2 /* CGFloat+Extensions.swift in Sources */,
 				867BE1172C05FCEC002931C2 /* TabCRouter.swift in Sources */,
 				86EC242A2C0641C4002C1EF9 /* PresentedSheet.swift in Sources */,
 				867BE0FF2C05F7B3002931C2 /* TabARouter.swift in Sources */,
 				867BE11B2C05FD82002931C2 /* ChatView.swift in Sources */,
+				8646CEE22C0F8E7700840CA4 /* JobListRouter.swift in Sources */,
 				867BE0EB2C05ED4B002931C2 /* AppRouter.swift in Sources */,
 				867BE1092C05FA4E002931C2 /* TransportationView.swift in Sources */,
 				867BE10B2C05FAA0002931C2 /* TabB.swift in Sources */,
-				867BE0BF2C05EC20002931C2 /* ContentView.swift in Sources */,
+				867BE0BF2C05EC20002931C2 /* JobListView.swift in Sources */,
 				867BE0FD2C05F72D002931C2 /* CodingUserInfoKey+Extensions.swift in Sources */,
 				867BE11F2C05FE67002931C2 /* InboxNavigationProtocol.swift in Sources */,
 				867BE0FB2C05F6E5002931C2 /* RouterDestinationDecoder.swift in Sources */,
 				867BE1192C05FD5B002931C2 /* InboxView.swift in Sources */,
 				867BE1012C05F819002931C2 /* ViewOne.swift in Sources */,
 				867BE0F22C05F4F1002931C2 /* View+Extensions.swift in Sources */,
+				8649727D2C0776A600D5FF26 /* MultilineTextField.swift in Sources */,
 				867BE1072C05F9D0002931C2 /* TabBRouter.swift in Sources */,
 				867BE0C12C05EC20002931C2 /* Item.swift in Sources */,
 				867BE11D2C05FDD3002931C2 /* TabC.swift in Sources */,
@@ -508,7 +558,9 @@
 				867BE0ED2C05EEEF002931C2 /* TabBarView.swift in Sources */,
 				867BE1052C05F896002931C2 /* TabA.swift in Sources */,
 				86EC24282C064024002C1EF9 /* TabD.swift in Sources */,
+				86EC24352C06533A002C1EF9 /* JobView.swift in Sources */,
 				86EC24302C064B8D002C1EF9 /* Job.swift in Sources */,
+				86EC24382C0653BB002C1EF9 /* JobCellView.swift in Sources */,
 				867BE0BD2C05EC20002931C2 /* InterviewCheckerApp.swift in Sources */,
 				867BE0F42C05F5AD002931C2 /* BaseRouter.swift in Sources */,
 				86EC24262C063F34002C1EF9 /* TabDRouter.swift in Sources */,
